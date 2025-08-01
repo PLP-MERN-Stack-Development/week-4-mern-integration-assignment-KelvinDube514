@@ -2,6 +2,22 @@
 
 A modern, full-stack fashion blog built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring advanced social features, user authentication, image uploads, and real-time interactions.
 
+## 📸 Application Previews
+
+![LuxeLane Blog Preview 1](client/src/assets/Preview%201.png)
+*Main dashboard and blog listing view*
+
+![LuxeLane Blog Preview 3](client/src/assets/Preview%203.png)
+*Detailed post view with comments and interactions*
+
+![LuxeLane Blog Preview 4](client/src/assets/Preview%204.png)
+*Create post form with image upload functionality*
+
+![LuxeLane Blog Preview 5](client/src/assets/Preview%205.png)
+*Search and filter interface*
+
+*Screenshots showcasing the modern, responsive design of the LuxeLane Social Blog application*
+
 ## 📋 Project Overview
 
 This project demonstrates complete MERN stack integration with all Week 4 assignment tasks implemented:
@@ -32,6 +48,28 @@ This project demonstrates complete MERN stack integration with all Week 4 assign
 - **Comments System**: Real-time commenting with user authentication
 - **Social Interactions**: Like, share, and engage with content
 - **Real-time Updates**: Optimistic UI updates for better UX
+
+## 🛠️ Technologies Used
+
+### Frontend
+- **React 18**: Modern React with hooks and functional components
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Router**: Client-side routing
+- **Axios**: HTTP client for API calls
+- **React Context**: State management
+- **Custom Hooks**: Reusable logic
+
+### Backend
+- **Node.js**: JavaScript runtime
+- **Express.js**: Web application framework
+- **MongoDB**: NoSQL database
+- **Mongoose**: MongoDB object modeling
+- **bcryptjs**: Password hashing
+- **jsonwebtoken**: JWT authentication
+- **express-validator**: Input validation
+- **multer**: File upload handling
+- **cloudinary**: Cloud image storage
 
 ## 🏗️ Project Structure
 
@@ -171,28 +209,6 @@ week-4-mern-integration-assignment-KelvinDube514/
 - ✅ Total count display
 - ✅ Efficient data loading
 
-## 🛠️ Technologies Used
-
-### Frontend
-- **React 18**: Modern React with hooks and functional components
-- **Vite**: Fast build tool and development server
-- **Tailwind CSS**: Utility-first CSS framework
-- **React Router**: Client-side routing
-- **Axios**: HTTP client for API calls
-- **React Context**: State management
-- **Custom Hooks**: Reusable logic
-
-### Backend
-- **Node.js**: JavaScript runtime
-- **Express.js**: Web application framework
-- **MongoDB**: NoSQL database
-- **Mongoose**: MongoDB object modeling
-- **bcryptjs**: Password hashing
-- **jsonwebtoken**: JWT authentication
-- **express-validator**: Input validation
-- **multer**: File upload handling
-- **cloudinary**: Cloud image storage
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -311,37 +327,6 @@ The application will be available at:
 }
 ```
 
-## 🎨 Fashion Content
-
-The blog features curated fashion content including:
-
-### 🌊 Barbiecore is Back
-Pink power dominates summer with bold, unapologetic flair.
-
-### 👙 2025 Swimwear Goes Sculptural
-Swimwear becomes art with bold cuts, metallic fabrics, and body-sculpting silhouettes.
-
-### 💄 Glam Athleisure 2.0
-When your gym outfit slays harder than your night-out fit.
-
-### ✨ The Luxe Edit
-Top 10 must-have pieces that define luxury fashion this season.
-
-### 🌸 Spring Refresh
-What to wear this bloom season for maximum impact.
-
-### 🧥 Layer Game Strong
-Winter luxe looks that combine warmth with undeniable style.
-
-### 🌊 Cool & Breezy
-Best linen looks for those scorching hot days.
-
-### 💎 Chic on a Budget
-How to look designer for less without compromising on style.
-
-### 🏖️ Beach Babe Essentials
-What to wear to the shore for maximum beachside glamour.
-
 ## 🔧 API Endpoints
 
 ### Authentication
@@ -382,6 +367,37 @@ npm run dev         # Start development server
 npm run build       # Build for production
 npm run preview     # Preview production build
 ```
+
+## 🎨 Fashion Content
+
+The blog features curated fashion content including:
+
+### 🌊 Barbiecore is Back
+Pink power dominates summer with bold, unapologetic flair.
+
+### 👙 2025 Swimwear Goes Sculptural
+Swimwear becomes art with bold cuts, metallic fabrics, and body-sculpting silhouettes.
+
+### 💄 Glam Athleisure 2.0
+When your gym outfit slays harder than your night-out fit.
+
+### ✨ The Luxe Edit
+Top 10 must-have pieces that define luxury fashion this season.
+
+### 🌸 Spring Refresh
+What to wear this bloom season for maximum impact.
+
+### 🧥 Layer Game Strong
+Winter luxe looks that combine warmth with undeniable style.
+
+### 🌊 Cool & Breezy
+Best linen looks for those scorching hot days.
+
+### 💎 Chic on a Budget
+How to look designer for less without compromising on style.
+
+### 🏖️ Beach Babe Essentials
+What to wear to the shore for maximum beachside glamour.
 
 ## 🔒 Security Features
 
